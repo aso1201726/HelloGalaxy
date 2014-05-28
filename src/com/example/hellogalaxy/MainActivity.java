@@ -1,6 +1,7 @@
 package com.example.hellogalaxy;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -34,6 +35,11 @@ View.OnClickListener
 			//２つを組み合わせて文字を設定
 			TextView tv =(TextView)findViewById(R.id.txvMsg);
 			tv.setText("こんちわ～" + inputMsg + inputMsg2 + "さん");
+
+			//インテントのインスタンス
+			Intent intent = new Intent(MainActivity.this,MsgActivity.class);
+			//次の画面に移動
+			startActivity(intent);
 
 			case R.id.btnNO:
 			TextView tv2 = (TextView)findViewById(R.id.txvMsg);

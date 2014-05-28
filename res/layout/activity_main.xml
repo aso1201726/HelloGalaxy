@@ -50,8 +50,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Family Name"
-                android:textSize="20";
-                />
+                android:textSize="20sp"/>
 
             <EditText
                 android:id="@+id/edtFamily"
@@ -59,7 +58,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="35dp"
                 android:ems="10"
-                android:background="#ffffff";>
+                android:background="#ffffff">
 
 				<requestFocus />
             </EditText>
@@ -69,7 +68,7 @@
     </TableLayout>
 
     <LinearLayout
-        
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical" >
